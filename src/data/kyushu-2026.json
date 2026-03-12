@@ -1,0 +1,379 @@
+{
+  "title": "九州特种兵 2026",
+  "startDate": "2026-03-25",
+  "endDate": "2026-03-28",
+  "region": "Kyushu, Japan",
+  "days": [
+    {
+      "date": "2026-03-25",
+      "dayIndex": 1,
+      "weekday": "周三",
+      "title": "上海 → 福冈 → 佐世保",
+      "theme": "启程夜奔",
+      "color": "#3b82f6",
+      "stops": [
+        {
+          "id": "pvg",
+          "name": "上海浦东T2",
+          "nameJa": "上海浦東国際空港",
+          "coordinate": { "lng": 121.8083, "lat": 31.1443 },
+          "time": "14:50",
+          "description": "春秋航空 9C6637",
+          "type": "transport",
+          "icon": "plane-departure"
+        },
+        {
+          "id": "fuk",
+          "name": "福冈机场 国际线",
+          "nameJa": "福岡空港 国際線",
+          "coordinate": { "lng": 130.4510, "lat": 33.5840 },
+          "time": "17:55",
+          "description": "到达国际线航站楼",
+          "type": "transport",
+          "icon": "plane-arrival"
+        },
+        {
+          "id": "fuk-domestic",
+          "name": "福冈机场 国内线",
+          "nameJa": "福岡空港 国内線",
+          "coordinate": { "lng": 130.4505, "lat": 33.5855 },
+          "time": "~18:30",
+          "description": "接驳巴士到国内线航站楼",
+          "type": "station"
+        },
+        {
+          "id": "hakata",
+          "name": "博多站",
+          "nameJa": "博多駅",
+          "coordinate": { "lng": 130.4207, "lat": 33.5898 },
+          "time": "~19:15",
+          "description": "购买 JR 票",
+          "type": "station"
+        },
+        {
+          "id": "sasebo-sta",
+          "name": "佐世保站",
+          "nameJa": "佐世保駅",
+          "coordinate": { "lng": 129.7265, "lat": 33.1636 },
+          "time": "22:19",
+          "description": "JR特急みどり59号到达",
+          "type": "station"
+        },
+        {
+          "id": "sasebo-burger",
+          "name": "佐世保汉堡 Big Man",
+          "nameJa": "ビッグマン",
+          "coordinate": { "lng": 129.7217, "lat": 33.1696 },
+          "time": "~22:30",
+          "description": "佐世保名物汉堡宵夜",
+          "type": "food",
+          "icon": "utensils"
+        },
+        {
+          "id": "hotel-sasebo",
+          "name": "JR九州Hotel佐世保",
+          "nameJa": "JR九州ホテル佐世保",
+          "coordinate": { "lng": 129.7258, "lat": 33.1643 },
+          "description": "出站即到，¥9,350/晚",
+          "type": "hotel",
+          "icon": "bed"
+        }
+      ],
+      "legs": [
+        { "from": "pvg", "to": "fuk", "transport": "春秋航空 9C6637", "duration": "3h05m", "cost": "¥3,067 RMB", "verified": true },
+        { "from": "fuk", "to": "fuk-domestic", "transport": "入境审查 + 通关", "duration": "~45min", "note": "樱花季周三傍晚，注册VJW可省10-20min；新航站楼2025年启用，通关能力翻倍；最差情况1h+" },
+        { "from": "fuk-domestic", "to": "hakata", "transport": "地铁 空港线", "duration": "~11min" },
+        { "from": "hakata", "to": "sasebo-sta", "transport": "JR特急みどり59号 自由席", "duration": "1h47m", "cost": "¥4,220" },
+        { "from": "sasebo-sta", "to": "sasebo-burger", "transport": "步行", "duration": "3min" },
+        { "from": "sasebo-burger", "to": "hotel-sasebo", "transport": "步行", "duration": "2min" }
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "dayIndex": 2,
+      "weekday": "周四",
+      "title": "极西狂飙 → 平户 → 夜推长崎",
+      "theme": "极西打卡 + 大航海",
+      "color": "#f59e0b",
+      "stops": [
+        {
+          "id": "saza-sta",
+          "name": "佐佐站",
+          "nameJa": "佐々駅",
+          "coordinate": { "lng": 129.6470, "lat": 33.2369 },
+          "time": "08:35",
+          "description": "松浦铁道到达 (¥380，JR Pass不可用)",
+          "type": "station"
+        },
+        {
+          "id": "kozakibana",
+          "name": "神崎鼻 (日本本土最西端)",
+          "nameJa": "神崎鼻",
+          "coordinate": { "lng": 129.5525, "lat": 33.2178 },
+          "time": "09:00",
+          "description": "出租车前往，打卡最西端纪念碑+领证",
+          "type": "attraction",
+          "icon": "flag"
+        },
+        {
+          "id": "hirado-pier",
+          "name": "平户栈桥",
+          "nameJa": "平戸桟橋",
+          "coordinate": { "lng": 129.5568, "lat": 33.3683 },
+          "time": "11:04",
+          "description": "西肥巴士 10:06 发车到达，租 e-bike",
+          "type": "station"
+        },
+        {
+          "id": "tei-stone",
+          "name": "郑成功儿诞石",
+          "nameJa": "鄭成功児誕石",
+          "coordinate": { "lng": 129.5267, "lat": 33.3304 },
+          "time": "~12:00",
+          "description": "骑行 7km 沿海公路打卡",
+          "type": "attraction",
+          "icon": "monument"
+        },
+        {
+          "id": "hirado-lunch",
+          "name": "平户午餐",
+          "nameJa": "平戸市内",
+          "coordinate": { "lng": 129.5542, "lat": 33.3700 },
+          "time": "13:00",
+          "description": "平户牛 / 比目鱼定食",
+          "type": "food",
+          "icon": "utensils"
+        },
+        {
+          "id": "hirado-castle",
+          "name": "平户城",
+          "nameJa": "平戸城",
+          "coordinate": { "lng": 129.5576, "lat": 33.3686 },
+          "time": "14:00",
+          "description": "山上海景绝景，电驴可骑到半山腰",
+          "type": "attraction",
+          "icon": "fort"
+        },
+        {
+          "id": "sasebo-sta-2",
+          "name": "佐世保站",
+          "nameJa": "佐世保駅",
+          "coordinate": { "lng": 129.7265, "lat": 33.1636 },
+          "time": "18:06",
+          "description": "西肥巴士 16:30 发车到达，取行李+买便当",
+          "type": "station"
+        },
+        {
+          "id": "nagasaki-sta",
+          "name": "长崎站",
+          "nameJa": "長崎駅",
+          "coordinate": { "lng": 129.8691, "lat": 32.7527 },
+          "time": "20:41",
+          "description": "JR快速 Sea Side Liner 18:49 发车到达",
+          "type": "station"
+        },
+        {
+          "id": "hotel-nagasaki",
+          "name": "长崎万豪酒店",
+          "nameJa": "長崎マリオットホテル",
+          "coordinate": { "lng": 129.8694, "lat": 32.7519 },
+          "description": "¥30,662/晚",
+          "type": "hotel",
+          "icon": "bed"
+        }
+      ],
+      "legs": [
+        { "from": "saza-sta", "to": "kozakibana", "transport": "出租车", "duration": "20min", "cost": "~¥4,500 往返" },
+        { "from": "kozakibana", "to": "saza-sta", "transport": "出租车 (原车返回)", "duration": "20min" },
+        { "from": "saza-sta", "to": "hirado-pier", "transport": "西肥巴士 10:06发", "duration": "58min", "cost": "~¥1,350" },
+        { "from": "hirado-pier", "to": "tei-stone", "transport": "e-bike", "duration": "~40min" },
+        { "from": "tei-stone", "to": "hirado-lunch", "transport": "e-bike", "duration": "~30min" },
+        { "from": "hirado-lunch", "to": "hirado-castle", "transport": "e-bike", "duration": "~10min" },
+        { "from": "hirado-castle", "to": "hirado-pier", "transport": "e-bike", "duration": "~10min" },
+        { "from": "hirado-pier", "to": "sasebo-sta-2", "transport": "西肥巴士 16:30发", "duration": "96min", "cost": "~¥1,350" },
+        { "from": "sasebo-sta-2", "to": "nagasaki-sta", "transport": "JR快速 Sea Side Liner 18:49发", "duration": "112min", "cost": "¥1,930" },
+        { "from": "nagasaki-sta", "to": "hotel-nagasaki", "transport": "步行", "duration": "5min" }
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "dayIndex": 3,
+      "weekday": "周五",
+      "title": "原爆古刹 → 北伐唐津 → 夜樱",
+      "theme": "Dark Tourism + 国宝 + 夜樱",
+      "color": "#ef4444",
+      "stops": [
+        {
+          "id": "peace-park",
+          "name": "原爆资料馆",
+          "nameJa": "長崎原爆資料館",
+          "coordinate": { "lng": 129.8590, "lat": 32.7703 },
+          "time": "09:00",
+          "description": "原爆落下中心地碑，留足 1.5h",
+          "type": "attraction",
+          "icon": "memorial"
+        },
+        {
+          "id": "sofukuji",
+          "name": "崇福寺 (国宝)",
+          "nameJa": "崇福寺",
+          "coordinate": { "lng": 129.8834, "lat": 32.7425 },
+          "time": "11:30",
+          "description": "纯正明朝闽南建筑风格",
+          "type": "attraction",
+          "icon": "temple"
+        },
+        {
+          "id": "chinatown",
+          "name": "长崎中华街",
+          "nameJa": "長崎新地中華街",
+          "coordinate": { "lng": 129.8753, "lat": 32.7415 },
+          "time": "12:30",
+          "description": "长崎什锦面 Champon 必吃！",
+          "type": "food",
+          "icon": "utensils"
+        },
+        {
+          "id": "nagasaki-sta-2",
+          "name": "长崎站",
+          "nameJa": "長崎駅",
+          "coordinate": { "lng": 129.8691, "lat": 32.7527 },
+          "time": "14:30",
+          "description": "取行李，进站准备出发",
+          "type": "station"
+        },
+        {
+          "id": "takeo",
+          "name": "武雄温泉站",
+          "nameJa": "武雄温泉駅",
+          "coordinate": { "lng": 130.0231, "lat": 33.1965 },
+          "time": "~15:12",
+          "description": "新干线必经站，可途中下车泡汤",
+          "type": "station"
+        },
+        {
+          "id": "saga-sta",
+          "name": "佐贺站",
+          "nameJa": "佐賀駅",
+          "coordinate": { "lng": 130.2971, "lat": 33.2642 },
+          "time": "~15:30",
+          "description": "普通列车换乘唐津线",
+          "type": "station"
+        },
+        {
+          "id": "karatsu-sta",
+          "name": "唐津站",
+          "nameJa": "唐津駅",
+          "coordinate": { "lng": 129.9673, "lat": 33.4410 },
+          "time": "16:46",
+          "description": "JR唐津线 15:38 发车到达",
+          "type": "station"
+        },
+        {
+          "id": "karatsu-castle",
+          "name": "唐津城 夜樱",
+          "nameJa": "唐津城（舞鶴公園）",
+          "coordinate": { "lng": 129.9782, "lat": 33.4535 },
+          "time": "17:15",
+          "description": "舞鶴公園免费入园，夜樱ライトアップ 日落~22:00",
+          "type": "attraction",
+          "icon": "cherry-blossom"
+        },
+        {
+          "id": "karatsu-dinner",
+          "name": "活乌贼刺身",
+          "nameJa": "呼子イカの活き造り",
+          "coordinate": { "lng": 129.9700, "lat": 33.4480 },
+          "time": "19:00",
+          "description": "唐津名物，透明活乌贼",
+          "type": "food",
+          "icon": "utensils"
+        },
+        {
+          "id": "hotel-karatsu",
+          "name": "唐津住宿",
+          "nameJa": "AKARIYA Hostel",
+          "coordinate": { "lng": 129.9685, "lat": 33.4470 },
+          "description": "¥8,100/晚",
+          "type": "hotel",
+          "icon": "bed"
+        }
+      ],
+      "legs": [
+        { "from": "peace-park", "to": "sofukuji", "transport": "路面电车", "duration": "~30min" },
+        { "from": "sofukuji", "to": "chinatown", "transport": "步行", "duration": "10min" },
+        { "from": "chinatown", "to": "nagasaki-sta-2", "transport": "路面电车 + 步行", "duration": "~30min" },
+        { "from": "nagasaki-sta-2", "to": "takeo", "transport": "新幹線かもめ38号 14:42发", "duration": "30min", "cost": "¥3,070" },
+        { "from": "takeo", "to": "saga-sta", "transport": "普通列車", "duration": "~18min", "cost": "~¥680" },
+        { "from": "saga-sta", "to": "karatsu-sta", "transport": "JR唐津线 15:38发", "duration": "68min", "cost": "¥1,300" },
+        { "from": "karatsu-sta", "to": "karatsu-castle", "transport": "步行", "duration": "15min" },
+        { "from": "karatsu-castle", "to": "karatsu-dinner", "transport": "步行", "duration": "10min" },
+        { "from": "karatsu-dinner", "to": "hotel-karatsu", "transport": "步行", "duration": "5min" }
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "dayIndex": 4,
+      "weekday": "周六",
+      "title": "海城樱花 → 太宰府满愿 → 回沪",
+      "theme": "樱花大满愿",
+      "color": "#ec4899",
+      "stops": [
+        {
+          "id": "karatsu-morning",
+          "name": "舞鶴桥 远摄唐津城",
+          "nameJa": "舞鶴橋",
+          "coordinate": { "lng": 129.9756, "lat": 33.4509 },
+          "time": "08:30",
+          "description": "日间版唐津城 + 樱花同框",
+          "type": "attraction",
+          "icon": "camera"
+        },
+        {
+          "id": "tenjin",
+          "name": "天神站",
+          "nameJa": "天神駅",
+          "coordinate": { "lng": 130.3986, "lat": 33.5913 },
+          "time": "11:20",
+          "description": "JR筑肥线直通，存行李到储物柜",
+          "type": "station"
+        },
+        {
+          "id": "dazaifu",
+          "name": "太宰府天满宫",
+          "nameJa": "太宰府天満宮",
+          "coordinate": { "lng": 130.5343, "lat": 33.5195 },
+          "time": "12:10",
+          "description": "满开樱花 + 梅枝饼 + 隈研吾星巴克 + 一兰合格拉面",
+          "type": "attraction",
+          "icon": "shrine"
+        },
+        {
+          "id": "tenjin-back",
+          "name": "天神站 (取行李)",
+          "nameJa": "天神駅",
+          "coordinate": { "lng": 130.3986, "lat": 33.5913 },
+          "time": "15:15",
+          "description": "取行李，地铁 11 分钟到机场",
+          "type": "station"
+        },
+        {
+          "id": "fuk-depart",
+          "name": "福冈机场",
+          "nameJa": "福岡空港",
+          "coordinate": { "lng": 130.4510, "lat": 33.5840 },
+          "time": "15:45",
+          "description": "2h15min buffer，免税店扫荡",
+          "type": "transport",
+          "icon": "plane-departure"
+        }
+      ],
+      "legs": [
+        { "from": "karatsu-morning", "to": "tenjin", "transport": "JR筑肥线 10:00发", "duration": "1h20m", "cost": "¥1,290" },
+        { "from": "tenjin", "to": "dazaifu", "transport": "西铁大牟田线 特急/急行", "duration": "~30min", "cost": "~¥580" },
+        { "from": "dazaifu", "to": "tenjin-back", "transport": "西铁 原路返回", "duration": "~30min", "cost": "~¥580" },
+        { "from": "tenjin-back", "to": "fuk-depart", "transport": "福冈地铁空港线", "duration": "11min", "cost": "~¥260" }
+      ]
+    }
+  ]
+}
